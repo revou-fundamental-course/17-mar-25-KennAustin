@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.main-header {
+    background-color: #578FCA;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.main-header span{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main-header h1{
+    color: lightgray;
+    font-size: 30px;
+}
+
+.main {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main h2{
+    margin-bottom: 15px;
+}
+
+.link {
+    margin: 15px 0;
+}
+
+button {
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.luas {
+    background-color:#5dade2;
+    color: white;
+}
+
+.luas:hover {
+    background-color: #2283c3;
+}
+
+.keliling {
+    background-color:#5dade2;
+    color: white;
+}
+
+.keliling:hover {
+    background-color: #2283c3;
+}
+
+.content-section {
+    display: none;
+    margin-top: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.submit {
+    background-color:#5dade2;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #2283c3;
+}
+
+.reset {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #ff0000;
+}
+
+#hasilLuas, #hasilKeliling {
+    font-size: 15px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+    line-height: 1.5;
+    display: none;
+}

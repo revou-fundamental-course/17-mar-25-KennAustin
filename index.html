@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Katik - Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="main-header">
+        <h1><span>Katik</span> Kalkulator Matematik</h1>
+    </header>
+    <main>
+        <div class="main">
+            <header>
+                <h2>Welcome to Katik 😊</h2>
+            </header>
+            <p>Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar.</p>
+            <div class="link">
+                <button class="luas" id="btnLuas">Luas Persegi</button>
+                <button class="keliling" id="btnKeliling">Keliling Persegi</button>
+            </div>
+            <div class="main-content">
+                <section id="luas" class="content-section">
+                    <h3>Luas Persegi</h3>
+                    <img src="assets/Persegi.png" alt="Gambar Persegi">
+                    <p>Rumus: L = S x S</p>
+                    <p>Di mana: L = Luas, S = Sisi</p>
+                    <input type="number" id="inputLuas" placeholder="Masukkan nilai sisi">
+                    
+                    <p id="hasilLuas"></p>  
+                
+                    <button class="submit" onclick="hitungLuas()">Hitung</button>
+                    <button class="reset" onclick="resetInput('inputLuas', 'hasilLuas')">Reset</button>
+                </section>
+                
+                <section id="keliling" class="content-section">
+                    <h3>Keliling Persegi</h3>
+                    <img src="assets/Persegi.png" alt="Gambar Persegi">
+                    <p>Rumus: K = 4 x S</p>
+                    <p>Di mana: K = Keliling, S = Sisi</p>
+                    <input type="number" id="inputKeliling" placeholder="Masukkan nilai sisi">
+                    
+                    <p id="hasilKeliling"></p>
+                
+                    <button class="submit" onclick="hitungKeliling()">Hitung</button>
+                    <button class="reset" onclick="resetInput('inputKeliling', 'hasilKeliling')">Reset</button>
+                </section>                
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
