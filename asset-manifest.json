@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uts_pemrograman_web_122140043/static/css/main.d8b1e4c6.css",
+    "main.js": "/uts_pemrograman_web_122140043/static/js/main.bb3410f2.js",
+    "static/js/453.5c152135.chunk.js": "/uts_pemrograman_web_122140043/static/js/453.5c152135.chunk.js",
+    "index.html": "/uts_pemrograman_web_122140043/index.html",
+    "main.d8b1e4c6.css.map": "/uts_pemrograman_web_122140043/static/css/main.d8b1e4c6.css.map",
+    "main.bb3410f2.js.map": "/uts_pemrograman_web_122140043/static/js/main.bb3410f2.js.map",
+    "453.5c152135.chunk.js.map": "/uts_pemrograman_web_122140043/static/js/453.5c152135.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b1e4c6.css",
+    "static/js/main.bb3410f2.js"
+  ]
+}
